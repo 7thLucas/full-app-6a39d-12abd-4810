@@ -1,0 +1,41 @@
+<style>
+  .mode-portrait .sl-cover { flex-direction: column; }
+  .mode-portrait .sl-visual { width: 100%; height: 40%; }
+  .mode-landscape .sl-visual { width: 42%; height: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-cover flex w-full h-full">
+    <!-- Content column -->
+    <div class="flex-1 flex flex-col justify-between p-12">
+      <div>
+        <span class="inline-block text-xs font-semibold tracking-[0.2em] uppercase text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full">RevPath · Working name</span>
+      </div>
+
+      <div class="max-w-xl">
+        <h1 class="text-5xl font-extrabold leading-[1.05] text-slate-900">
+          Monetization,<br/>
+          <span class="text-emerald-700">solved early.</span>
+        </h1>
+        <p class="mt-6 text-lg text-slate-600 leading-relaxed">
+          An AI strategist that ideates and pressure-tests revenue models for
+          seed-stage tech companies — turning a founder's guess into a defensible
+          playbook.
+        </p>
+      </div>
+
+      <div class="text-sm text-slate-500">
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Visual column -->
+    <div class="sl-visual relative overflow-hidden">
+      <img
+        class="absolute inset-0 w-full h-full object-cover"
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=Calm%20editorial%20abstract%20visual%20of%20upward%20revenue%20growth%20paths%20and%20converging%20strategy%20lines%2C%20emerald%20and%20deep%20slate%20palette%2C%20premium%20minimal%20fintech%20advisory%20aesthetic"
+        alt="Converging revenue strategy paths"
+      />
+      <div class="absolute inset-0 bg-gradient-to-tr from-slate-900/30 to-transparent"></div>
+    </div>
+  </div>
+</section>
